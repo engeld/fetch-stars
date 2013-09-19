@@ -11,17 +11,18 @@ But sometimes, especially with many stars, this becomes monotonous, boring and r
 How to install
 --------------
 
-**Dependencies**
+**Dependencies:**
  - [jsawk](https://github.com/micha/jsawk)
 
 ```shell
-wget 
-
+$ wget https://raw.github.com/engeld/fetch-stars/master/fetch-stars.sh
+$ chmod +x ./fetch-stars.sh
 ```
 
 How to use
 ----------
 
+    ./fetch-stars.sh
 
 *If you have two-factor-auth enabled (like myself):*
  - create a "Personal Access Token" on [this settings page](https://github.com/settings/applications)
