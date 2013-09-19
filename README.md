@@ -38,6 +38,10 @@ TODO
 ----
  - Full OAUTH/GitHub-Auth support
 
-Sources
--------
- - 
+Resources & Co
+--------------
+ - [GitHub API: Repository Starring](http://developer.github.com/v3/activity/starring/)
+ - [GitHub API issue - listing starred repos](http://stackoverflow.com/questions/14057478/github-api-issue-listing-starred-repos)
+ - [An introduction to curl using GitHub's API](https://gist.github.com/caspyin/2288960)
+ - [GitHub API: OAuth](http://developer.github.com/v3/oauth/) - *I've read it hundreds of times and it's still a mystery to me*
+ - [Advanced Bash Scripting Guide](http://www.tldp.org/LDP/abs/html/) - *my bible*
