@@ -10,6 +10,10 @@ But sometimes, especially with many stars, this becomes monotonous, boring and r
 
 How to install
 --------------
+
+**Dependencies**
+ - [jsawk](https://github.com/micha/jsawk)
+
 ```shell
 wget 
 
@@ -34,4 +38,6 @@ TODO
 ----
  - Full OAUTH/GitHub-Auth support
 
-
+Sources
+-------
+ - 
