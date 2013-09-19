@@ -38,6 +38,7 @@ Known Issues
 TODO
 ----
  - Full OAUTH/GitHub-Auth support
+ - Few more commandline-switches
 
 Resources & Co
 --------------
