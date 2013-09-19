@@ -25,7 +25,7 @@ fi
 
 STAR_REQUEST=`curl ${CURL_OPS}  -u ${GITHUB_USERNAME}:${GITHUB_PASSWORD} ${GITHUB_API}/user/starred?page=1=per_page=${GITHUB_STARS_PER_PAGE} | jsawk -a 'return this.join("\n")' 'return this.full_name'`
 for REPO in $STAR_REQUEST; do
-    echo "\nProcessing ${REPO}...";
+    printf "\nProcessing ${REPO}...";
     
     REPO_OWNER=`echo ${REPO} | cut -d'/' -f1`
     
@@ -34,5 +34,5 @@ for REPO in $STAR_REQUEST; do
     git clone "${GITHUB_URL}/${REPO}.git"
     
     cd "$CURRENT_PATH";
-    echo "Processing ${REPO} done!\n\n";
+    printf "Processing ${REPO} done!\n\n";
 done
