@@ -1,5 +1,8 @@
 fetch-stars
 ===========
+**fetch-stars** *clones ~~all~~ most of your starred GitHub projects*
+
+--- 
 
 I enjoy reading other people's code. Thanks to GitHub it isn't such a hassle to finde some.
 So when I get my hands on particularly remarkable code (or just code I want to look at again some time later), I use GitHub's
