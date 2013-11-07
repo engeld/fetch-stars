@@ -22,12 +22,19 @@ $ chmod +x ./fetch-stars.sh
 How to use
 ----------
 
-    ./fetch-stars.sh
+    ./fetch-stars.sh [-u USER] [-d DIRECTORY]  
 
 *If you have two-factor-auth enabled (like myself):*
  - create a "Personal Access Token" on [this settings page](https://github.com/settings/applications)
  - use the created "Personal Access Token" as username
  - use 'x-oauth-basic' as password
+
+Workflow
+--------
+ - Loop through all of the given users starred projects
+   - For each one, check if it already exists in the target directory
+     - If it doesn't exists yet, clone it there
+     - If it already exists, update it
 
 
 Known Issues
@@ -37,8 +44,10 @@ Known Issues
 
 TODO
 ----
+ - Implement Sync
  - Full OAUTH/GitHub-Auth support
  - Few more commandline-switches
+   - USE GETOPTS
 
 Resources & Co
 --------------
