@@ -59,3 +59,7 @@ Resources & Co
  - [An introduction to curl using GitHub's API](https://gist.github.com/caspyin/2288960)
  - [GitHub API: OAuth](http://developer.github.com/v3/oauth/) - *I've read it hundreds of times and it's still a mystery to me*
  - [Advanced Bash Scripting Guide](http://www.tldp.org/LDP/abs/html/) - *my bible*
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/engeld/fetch-stars/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
