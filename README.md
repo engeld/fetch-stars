@@ -4,6 +4,8 @@ fetch-stars
 
 --- 
 
+**ATTENTION: Currently under heavy rewriting. THINGS ARE BROKEN!**
+
 I enjoy reading other people's code. Thanks to GitHub it isn't such a hassle to finde some.
 So when I get my hands on particularly remarkable code (or just code I want to look at again some time later), I use GitHub's
 'starring' feature, similar to a bookmark. And I use this feature a lot.
